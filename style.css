@@ -1,0 +1,49 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: #c7ddf0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: #7394b1;
+    color: #a9ca94;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.recipes {
+    border: solid black;
+    align-self: center;
+    width: 300px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #7394b1;
+    padding: 10px 0px 10px 0px;
+}
+
+a:link, a:visited {
+    padding: 10px;
+    background-color: #7394b1;
+    color: #a9ca94;
+    border: 2px black;
+}
+
+a:hover, a:active {
+    background-color: white;
+    color: #c5b589;
+}
+
+.list {
+    background-color: #c5b589;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
