@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c7ddf0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.description {
+    background-color: #7394b1;
+    margin: 20px auto;
+    width: 650px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+p {
+    margin: 5px auto;
+}
+
+a:link, a:visited {
+    display: inline-block;
+    background-color: #7394b1;
+    color: #a9ca94;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+a:hover, a:active {
+    display: inline-block;
+    background-color: white;
+    color: #c5b589;
+}

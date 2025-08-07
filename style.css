@@ -18,25 +18,29 @@ h1 {
 
 .recipes {
     border: solid black;
+    border-radius: 10px;
     align-self: center;
     width: 300px;
     margin: auto;
     box-sizing: border-box;
 }
 
-button {
-    background-color: #7394b1;
-    padding: 10px 0px 10px 0px;
+.list {
+    border-radius: 10px;
 }
 
 a:link, a:visited {
-    padding: 10px;
+    display: inline-block;
     background-color: #7394b1;
     color: #a9ca94;
-    border: 2px black;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
 }
 
 a:hover, a:active {
+    display: inline-block;
     background-color: white;
     color: #c5b589;
 }
