@@ -5,16 +5,39 @@ body {
     text-align: center;
 }
 
-.description {
-    background-color: #7394b1;
-    margin: 20px auto;
-    width: 650px;
+img {
     border: 2px solid black;
     border-radius: 10px;
 }
 
+.description, .ingredients, .stepbystep {
+    background-color: #7394b1;
+    margin: 20px auto;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#recipe, #head-2 {
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.ingredients ul {
+    text-align: left;
+}
+
+.stepbystep ol {
+    text-align: left;
+}
+
+li {
+    padding-bottom: 3px;
+}
+
 p {
     margin: 5px auto;
+    padding: 0 40px 0 40px;
 }
 
 a:link, a:visited {
@@ -24,6 +47,7 @@ a:link, a:visited {
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
+    margin: 5px 0 5px 0;
 }
 
 a:hover, a:active {
